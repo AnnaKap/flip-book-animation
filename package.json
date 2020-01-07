@@ -1,0 +1,22 @@
+{
+  "name": "flip-book-animation",
+  "version": "1.0.0",
+  "description": "yer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaKap/flip-book-animation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaKap/flip-book-animation/issues"
+  },
+  "homepage": "https://github.com/AnnaKap/flip-book-animation#readme",
+  "dependencies": {
+    "flipbook": "0.0.4"
+  }
+}
