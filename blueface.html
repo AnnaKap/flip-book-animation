@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>flip book page</title>
+    <script src="./flipbook.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="blueFace.css">
+  </head>
+  <body>
+    <div class="page">
+        <div class="title">
+            <h1>Scroll to play animation</h1>
+        </div>
+        <div class="wrapper">
+            <div id="animation"></div>
+        </div>
+    </div>
+  </body>
+    <script>
+        flipbook({
+			id: 'animation',
+			path: 'animation',
+			filename: 'blueFaceActually%2d',
+			extension: 'jpg',
+			count: 78,
+			speed: .75,
+		});
+    </script>
+</html>

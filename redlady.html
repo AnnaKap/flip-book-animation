@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>flip book page</title>
+    <script src="./flipbook.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="redLady.css">
+  </head>
+  <body id="body">
+      <h1 class="title">Red Lady</h1>
+      <h2 id="scrollStatus" class="title">scroll down</h2>
+      <div class="page">
+          <div class="wrapper">
+            <div id="animation"></div>
+        </div>
+    </div>
+  </body>
+  <script>
+        flipbook({
+            id: 'animation',
+            path: 'animation',
+            filename: 'redLady%2d',
+            extension: 'jpg',
+            count: 92,
+            speed: 0.7,
+        });
+    </script>
+</html>
