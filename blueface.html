@@ -3,17 +3,17 @@
   <head>
     <title>flip book page</title>
     <script src="./flipbook.min.js"></script>
+    <script src='./script.js'></script>
     <link rel="stylesheet" type="text/css" href="blueFace.css">
   </head>
-  <body>
-    <div class="page">
-        <div class="title">
-            <h1>Scroll to play animation</h1>
-        </div>
-        <div class="wrapper">
-            <div id="animation"></div>
-        </div>
-    </div>
+  <body id="body">
+      <h1 class="title">Red Lady</h1>
+      <h2 id="scrollStatus" class="title">scroll down</h2>
+      <div class="page">
+          <div class="wrapper">
+              <div id="animation"></div>
+          </div>
+      </div>
   </body>
     <script>
         flipbook({
