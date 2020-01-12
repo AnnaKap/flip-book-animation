@@ -6,6 +6,7 @@ const setScrollStatus = (status) => {
 window.onload = (e) => {
     height = Number(getHeight().slice(0,-2));
     scrollStatus = document.getElementById('scrollStatus');
+    setScrollStatus('scroll down');
 };
 window.onresize = (e) => {
     height = getHeight();
